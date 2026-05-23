@@ -1,0 +1,46 @@
+---
+description: Vibe Engineer guidelines — five principles for directing AI codegen well. Companion to the Karpathy guidelines.
+alwaysApply: true
+---
+
+# Vibe Engineer Guidelines
+
+Behavioral guidelines for the human directing AI codegen. The companion to the Karpathy guidelines — Karpathy's rules govern how Claude/Cursor should behave; these govern how YOU should behave.
+
+**Tradeoff**: bias toward verification over velocity. For trivial tasks, use judgment.
+
+## 1. Hypothesis before help
+
+Form a hypothesis about the bug's shape BEFORE asking the AI to fix it.
+
+- Trace data flow yourself first.
+- State your hypothesis even if uncertain.
+- A sharp hypothesis produces a sharp diagnosis.
+
+## 2. Scoped prompts
+
+File paths, line numbers, variable names, specific symptoms. Never "fix this."
+
+Scope reduces hallucination surface. The AI can only reason about what you put in context.
+
+## 3. Validate before accepting
+
+For every AI-proposed diff, ask three questions:
+
+1. Does it over-engineer?
+2. Does it miss an edge case?
+3. Does it match the root cause I identified?
+
+If yes to 1 or 2, or no to 3: reject and iterate.
+
+## 4. Reject working-but-wrong
+
+Solutions that pass tests by obscuring the bug are worse than no solution.
+
+Symptoms: try/catch swallowing the failure mode, defensive masking checks, renamed symptom variables, mocked broken dependencies.
+
+## 5. AI output is a draft, not a verdict
+
+Read the diff before staging. Run it, then read what it did. Compare against your hypothesis. Mismatch is data.
+
+Precision. Skepticism. Verification.
