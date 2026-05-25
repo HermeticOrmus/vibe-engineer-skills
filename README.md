@@ -1,6 +1,23 @@
-# Vibe Engineer Skills
+<p align="center">
+  <img src="https://ormus.solutions/mascot/chain_braces_to_swan.gif" alt="Vibe Engineer Skills" width="128" style="image-rendering: pixelated;" />
+</p>
 
-> A single `CLAUDE.md` for the human directing AI codegen. Companion to [andrej-karpathy-skills](https://github.com/HermeticOrmus/andrej-karpathy-skills).
+<h1 align="center">Vibe Engineer Skills</h1>
+
+<p align="center">
+  <em>A CLAUDE.md to direct AI codegen well — hypothesis before help, scoped prompts, validate before accepting, reject working-but-wrong, AI output is a draft. Five principles for the Vibe Engineer discipline.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HermeticOrmus/vibe-engineer-skills/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/vibe-engineer-skills?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/vibe-engineer-skills/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/vibe-engineer-skills?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/vibe-engineer-skills/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/vibe-engineer-skills?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+  <img src="https://img.shields.io/badge/Claude_Code-aa8142?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
+</p>
+
+---
+
+> **A single `CLAUDE.md` for the human directing AI codegen. Companion to [andrej-karpathy-skills](https://github.com/HermeticOrmus/andrej-karpathy-skills).**
 
 The Karpathy guidelines tell Claude how to behave. **These tell you how to behave when working with Claude.** Both are needed.
 
