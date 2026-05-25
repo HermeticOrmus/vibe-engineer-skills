@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ormus.solutions/mascot/chain_braces_to_swan.gif" alt="Vibe Engineer Skills" width="128" style="image-rendering: pixelated;" />
+  <img src="https://ormus.solutions/mascot/golden_swan.gif" alt="Vibe Engineer Skills" width="128" style="image-rendering: pixelated;" />
 </p>
 
 <h1 align="center">Vibe Engineer Skills</h1>
